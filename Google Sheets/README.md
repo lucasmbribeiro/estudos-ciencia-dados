@@ -1,54 +1,57 @@
 # Python + Google Sheet + Pandas
  
-## __Você irá aprender como capturar seus arquivos do Google Sheets e transforma em um DataFrame Pandas para dar andamento em suas análises.__ 
+## __Você irá aprender como capturar seus arquivos do Google Sheets e transformar em um DataFrame Pandas para dar andamento em suas análises.__ 
  
  
 Vou dividir em três sessões as explicações:
 * __Preparando seu ambiente__: Aqui explico os passos iniciais que precisamos realizar para fazer a ponte entre nosso código e a planilha.
 * __Autenticação local__: Método mais simples para autenticar e coletar os dados.
-* __Autenticação conta de serviço__: Aqui criamos uma conta de serviço para autenticação.
+* __Autenticação por conta de serviço__: Aqui criamos uma conta de serviço para autenticação.
  
-Irei passar um detalhamento sobre cada passo que iremos realizar e o motivo de cada um.<br>
-_Se você quer apenas ver o código rodar sem entender nada, [te indico esse link](https://developers.google.com/sheets/api/quickstart/python)._
+Irei passar um detalhamento sobre cada passo que iremos realizar e explicar o motivo de cada um.<br>
+_Se você quer apenas ver o código rodar sem entender as coisas funcionam, [te indico esse link](https://developers.google.com/sheets/api/quickstart/python)._
  
 --- 
+## __Breve resumo:__
+![](images/info.png)
+
  
 # __Preparando seu ambiente__
  
-> Esse passo a passo é __obrigatório__ pois vamos criar um projeto no painel do google developers e ativar a API do Google Sheets. Sem isso, nada funciona.
+> Esse passo a passo é __obrigatório__, sem isso nosso projeto não funciona. Vamos criar um projeto no painel do google developers e ativar a API do Google Sheets. 
  
 ## 1. Criar um projeto no Google Developer Console
  
 Link: https://console.developers.google.com/project
 > Clique na opção + Criar Projeto<br>
  
-![](./images/00_01.png)
+![](images/00_01.png)
  
  > Defina um nome para o seu projeto
  
-![](./images/00_02.png)
+![](images/00_02.png)
  
 ## 2. Ativando Google Sheets API
  Com nosso projeto criado, vamos habilitar a API.
  
  > Na barra de pesquisa, digite: Google Sheets API
  
-![](./images/00_03.png)
+![](images/00_03.png)
  
  > Seleciona a opção __Ativar__
  
-![](./images/00_04.png)
+![](images/00_04.png)
  
 ## 3. Configurando o consentimento OAuth
  Precisamos definir se nossa autenticação será __Interna__ _(Apenas para usuários da organização do seu projeto)_ ou __Externa__ _(Abrange todo mundo)_.
  
 > Nesse exemplo eu selecionei a opção __Externa__
  
-![](./images/00_05.png)
+![](images/00_05.png)
  
 > Precisamos definir um nome para o aplicativo. _Assim iremos sabem onde está sendo feito a autenticação_
  
-![](./images/00_06.png)
+![](images/00_06.png)
  
 ---
 >Até aqui:
@@ -64,16 +67,16 @@ __Precisamos criar a chave de autenticação com o nosso projeto.__
 ## 1. Criando credenciais: Id do cliente OAuth
 > Na página inicial do nosso projeto, clique em __credenciais__, __+ Criar Credenciais__ e selecione __ID Cliente OAuth__
  
-![](./images/00_07.png)
+![](images/00_07.png)
  
 > Selecione a opção do dispositivo que irá fazer a autenticação, no nosso caso: __App para computador__ 
  
-![](./images/00_08.png)
+![](images/00_08.png)
  
 > Faça o download do seu arquivo com as credenciais. <br>
 > Coloque seu arquivo .json na pasta do seu projeto! Você pode renomear seu arquivo.
  
-![](./images/00_09.png)
+![](images/00_09.png)
  
 ### __Agora que já temos nossa chave de autenticação, pode codificar a captura dos dados.__ 
  
@@ -150,23 +153,23 @@ if __name__ == '__main__':
  
 Após executar esse código a primeira vez, o Google irá solicitar sua aprovação para autenticar.
  
-![](./images/00_10.png)
+![](images/00_10.png)
  
-![](./images/00_11.png)
+![](images/00_11.png)
  
-![](./images/00_12.png)
+![](images/00_12.png)
  
  
 > Processo de autenticação realizado com sucesso:
  
-![](./images/00_13.png)
+![](images/00_13.png)
  
 Retornando para nosso notebook:
  
 Perceba que tivemos sucesso em nossa autenticação e leitura da planilha.
  
 Como retorno temos os dados da planilha e o link de autenticação que foi utilizado nos passos anteriores.
-![](./images/00_14.png)
+![](images/00_14.png)
  
 > Após todo esse processo, o Google gerou um arquivo chamado __token.pickle__. <br>
 > Esse arquivo serve para que não tenhamos que a cada execução realizar o processo de aceitação na autenticação.<br>
@@ -187,7 +190,7 @@ __Ler uma planilha específica e que o retorno seja um DataFrame do Pandas__
 Vamos precisar de duas informações:
  
 1. __Id da Planilha do Google Sheets__
-![](./images/01_00.png)
+![](images/01_00.png)
  
 2. __Nome da guia que queremos ler.__
  
@@ -227,7 +230,7 @@ sample_range_name = "Página1"
         return df
 ```
  
-![](./images/02_02.png)
+![](images/02_02.png)
  
 ---
 > Até aqui:
@@ -241,44 +244,44 @@ Após realizarmos os testes locais, queremos levar nosso projeto para produção
 ## 1. Criando uma credencial para conta de serviço
 > Aqui selecionamos o opção: __Conta de Serviço__
  
-![](./images/03_01.png)
+![](images/03_01.png)
  
 > Precisamos dar um nome nossa chave
  
-![](./images/03_02.png)
+![](images/03_02.png)
  
 > Os demais passos não são obrigatórios, então podemos pular rs ... 
  
-![](./images/03_03.png) <br>
-![](./images/03_04.png)
+![](images/03_03.png) <br>
+![](images/03_04.png)
  
 > __Credencial criada com sucesso__
  
-![](./images/03_05.png)
+![](images/03_05.png)
  
 ## 2. Criar uma key de autenticação
  
 > Clicando na credencial que criamos, vamos na opção __Chaves__.
  
-![](./images/03_06.png)
+![](images/03_06.png)
  
 > Eu indico criar no formato ```.json``` 
  
-![](./images/03_07.png)
+![](images/03_07.png)
  
 > Chave criada, será feito um download da chave. <br> 
-![](./images/03_08.png)
+![](images/03_08.png)
  
 ## Acesso ao e-mail de serviço 
 Precisamos conceder acesso ao e-mail criado na planilha queremos acessar. _Em nossa credencial criada, foi gerado um e-mail._
  
 > Pegamos esse e-mail na conta de serviço criada.
  
-![](./images/03_09.png)
+![](images/03_09.png)
  
 > Na planilha, adicionamos o e-mail.
  
-![](./images/03_10.png)
+![](images/03_10.png)
  
 ## 3. Vamos pro código
 Links de referência: <br>
