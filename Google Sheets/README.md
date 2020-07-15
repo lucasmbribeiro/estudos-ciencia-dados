@@ -190,10 +190,11 @@ __Ler uma planilha específica e que o retorno seja um DataFrame do Pandas__
 Vamos precisar de duas informações:
  
 1. __Id da Planilha do Google Sheets__
-![](images/01_00.PNG)
+![](images/02_01.PNG)
  
 2. __Nome da guia que queremos ler.__
- 
+ ![](images/02_03.PNG)
+
 Vamos precisar fazer uma modificação no script que o Google nos forneceu, para que o retorno seja um DataFrame :)
  
 Antes:
@@ -218,8 +219,8 @@ sample_range_name = "Página1"
         print('No data found.')
     else:
         # O retorno da API coloco como um DF
- 
         df = pd.DataFrame(values)
+        
         # Coloco a linha 1 como cabeçalho
         df.columns = df.iloc[0]
  
