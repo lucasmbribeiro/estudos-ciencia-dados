@@ -19,11 +19,11 @@
 Link: https://console.developers.google.com/project
 > Clique na opção + Criar Projeto<br>
  
-![](./images/00_01.png)
+![](./images/00_01.PNG)
  
  > Defina um nome para o seu projeto
  
-![](./images/00_02.png)
+![](./images/00_02.PNG)
  
 # __Ativado as API's__
  
@@ -32,27 +32,27 @@ Link: https://console.developers.google.com/project
  
  > Na barra de pesquisa, digite: Google Sheets API
  
-![](./images/00_03.png)
+![](./images/00_03.PNG)
  
  > Seleciona a opção __Ativar__
  
-![](./images/00_04.png)
+![](./images/00_04.PNG)
  
 ## Configurando o consentimento OAuth
  Precisamos definir se nossa autenticação será __Interna__ _(Apenas para usuários da organização do seu projeto)_ ou __Externa__ _(Abrange todo mundo)_.
  
 > Nesse exemplo eu selecionei a opção __Externa__
  
-![](./images/00_05.png)
+![](./images/00_05.PNG)
  
 > Precisamos definir um nome para o aplicativo. _Assim iremos sabem onde está sendo feito a autenticação_
  
-![](./images/00_06.png)
+![](./images/00_06.PNG)
  
  
 ## Ativando a API do Google Drive
  
-![](./images/00_15.png)
+![](./images/00_15.PNG)
  
 ---
  
@@ -61,11 +61,11 @@ Link: https://console.developers.google.com/project
 ## Credencial para conta OAuth
 > Na página inicial do nosso projeto, clique em __credenciais__, __+ Criar Credenciais__ e selecione __ID Cliente OAuth__
  
-![](./images/00_07.png)
+![](./images/00_07.PNG)
  
 > Selecione a opção do dispositivo que irá fazer a autenticação, no nosso caso: __App para computador__ 
  
-![](./images/00_08.png)
+![](./images/00_08.PNG)
  
 > Faça o download do seu arquivo com as credenciais. <br>
 > Coloque seu arquivo .json na pasta do seu projeto! Você pode renomear seu arquivo.
@@ -73,33 +73,33 @@ Link: https://console.developers.google.com/project
 ## Credencial para conta de serviço
 > Aqui selecionamos o opção: __Conta de Serviço__
  
-![](./images/03_01.png)
+![](./images/03_01.PNG)
  
 > Precisamos dar um nome nossa chave
  
-![](./images/03_02.png)
+![](./images/03_02.PNG)
  
 > Os demais passos não são obrigatórios, então podemos pular. 
  
-![](./images/03_03.png) <br>
-![](./images/03_04.png)
+![](./images/03_03.PNG) <br>
+![](./images/03_04.PNG)
  
 > __Credencial criada com sucesso__
  
-![](./images/03_05.png)
+![](./images/03_05.PNG)
  
 ## 2. Criar uma key de autenticação
  
 > Clicando na credencial que criamos, vamos na opção __Chaves__.
  
-![](./images/03_06.png)
+![](./images/03_06.PNG)
  
 > Eu indico criar no formato ```.json``` 
  
-![](./images/03_07.png)
+![](./images/03_07.PNG)
  
 > Chave criada, será feito um download da chave. <br> 
-![](./images/03_08.png)
+![](./images/03_08.PNG)
  
 ---
  
@@ -117,11 +117,11 @@ Precisamos conceder acesso ao e-mail criado na planilha queremos acessar. _Em no
  
 > Pegamos o e-mail criado na conta de serviço.
  
-![](./images/03_09.png)
+![](./images/03_09.PNG)
  
 > Na planilha, adicionamos o e-mail.
  
-![](./images/03_10.png)
+![](./images/03_10.PNG)
  
 ---
  
