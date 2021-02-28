@@ -1,0 +1,435 @@
+|CODMUN7|NOME_CIDADE
+0|1200013|Acrelândia
+1|1200054|Assis Brasil
+2|1200104|Brasiléia
+3|1200138|Bujari
+4|1200179|Capixaba
+5|1200203|Cruzeiro do Sul
+6|1200252|Epitaciolândia
+7|1200302|Feijó
+8|1200328|Jordão
+9|1200336|Mâncio Lima
+10|1200344|Manoel Urbano
+11|1200351|Marechal Thaumaturgo
+12|1200385|Plácido de Castro
+13|1200807|Porto Acre
+14|1200393|Porto Walter
+15|1200401|Rio Branco
+16|1200427|Rodrigues Alves
+17|1200435|Santa Rosa do Purus
+18|1200500|Sena Madureira
+19|1200450|Senador Guiomard
+20|1200609|Tarauacá
+21|1200708|Xapuri
+22|1100015|Alta Floresta D'Oeste
+23|1100379|Alto Alegre dos Parecis
+24|1100403|Alto Paraíso
+25|1100346|Alvorada D'Oeste
+26|1100023|Ariquemes
+27|1100452|Buritis
+28|1100031|Cabixi
+29|1100601|Cacaulândia
+30|1100049|Cacoal
+31|1100700|Campo Novo de Rondônia
+32|1100809|Candeias do Jamari
+33|1100908|Castanheiras
+34|1100056|Cerejeiras
+35|1100924|Chupinguaia
+36|1100064|Colorado do Oeste
+37|1100072|Corumbiara
+38|1100080|Costa Marques
+39|1100940|Cujubim
+40|1100098|Espigão D'Oeste
+41|1101005|Governador Jorge Teixeira
+42|1100106|Guajará-Mirim
+43|1101104|Itapuã do Oeste
+44|1100114|Jaru
+45|1100122|Ji-Paraná
+46|1100130|Machadinho D'Oeste
+47|1101203|Ministro Andreazza
+48|1101302|Mirante da Serra
+49|1101401|Monte Negro
+50|1100148|Nova Brasilândia D'Oeste
+51|1100338|Nova Mamoré
+52|1101435|Nova União
+53|1100502|Novo Horizonte do Oeste
+54|1100155|Ouro Preto do Oeste
+55|1101450|Parecis
+56|1100189|Pimenta Bueno
+57|1101468|Pimenteiras do Oeste
+58|1100205|Porto Velho
+59|1100254|Presidente Médici
+60|1101476|Primavera de Rondônia
+61|1100262|Rio Crespo
+62|1100288|Rolim de Moura
+63|1100296|Santa Luzia D'Oeste
+64|1101484|São Felipe D'Oeste
+65|1101492|São Francisco do Guaporé
+66|1100320|São Miguel do Guaporé
+67|1101500|Seringueiras
+68|1101559|Teixeirópolis
+69|1101609|Theobroma
+70|1101708|Urupá
+71|1101757|Vale do Anari
+72|1101807|Vale do Paraíso
+73|1100304|Vilhena
+74|1300029|Alvarães
+75|1300060|Amaturá
+76|1300086|Anamã
+77|1300102|Anori
+78|1300144|Apuí
+79|1300201|Atalaia do Norte
+80|1300300|Autazes
+81|1300409|Barcelos
+82|1300508|Barreirinha
+83|1300607|Benjamin Constant
+84|1300631|Beruri
+85|1300680|Boa Vista do Ramos
+86|1300706|Boca do Acre
+87|1300805|Borba
+88|1300839|Caapiranga
+89|1300904|Canutama
+90|1301001|Carauari
+91|1301100|Careiro
+92|1301159|Careiro da Várzea
+93|1301209|Coari
+94|1301308|Codajás
+95|1301407|Eirunepé
+96|1301506|Envira
+97|1301605|Fonte Boa
+98|1301654|Guajará
+99|1301704|Humaitá
+100|1301803|Ipixuna
+101|1301852|Iranduba
+102|1301902|Itacoatiara
+103|1301951|Itamarati
+104|1302009|Itapiranga
+105|1302108|Japurá
+106|1302207|Juruá
+107|1302306|Jutaí
+108|1302405|Lábrea
+109|1302504|Manacapuru
+110|1302553|Manaquiri
+111|1302603|Manaus
+112|1302702|Manicoré
+113|1302801|Maraã
+114|1302900|Maués
+115|1303007|Nhamundá
+116|1303106|Nova Olinda do Norte
+117|1303205|Novo Airão
+118|1303304|Novo Aripuanã
+119|1303403|Parintins
+120|1303502|Pauini
+121|1303536|Presidente Figueiredo
+122|1303569|Rio Preto da Eva
+123|1303601|Santa Isabel do Rio Negro
+124|1303700|Santo Antônio do Içá
+125|1303809|São Gabriel da Cachoeira
+126|1303908|São Paulo de Olivença
+127|1303957|São Sebastião do Uatumã
+128|1304005|Silves
+129|1304062|Tabatinga
+130|1304104|Tapauá
+131|1304203|Tefé
+132|1304237|Tonantins
+133|1304260|Uarini
+134|1304302|Urucará
+135|1304401|Urucurituba
+136|1500107|Abaetetuba
+137|1500131|Abel Figueiredo
+138|1500206|Acará
+139|1500305|Afuá
+140|1500347|Água Azul do Norte
+141|1500404|Alenquer
+142|1500503|Almeirim
+143|1500602|Altamira
+144|1500701|Anajás
+145|1500800|Ananindeua
+146|1500859|Anapu
+147|1500909|Augusto Corrêa
+148|1500958|Aurora do Pará
+149|1501006|Aveiro
+150|1501105|Bagre
+151|1501204|Baião
+152|1501253|Bannach
+153|1501303|Barcarena
+154|1501402|Belém
+155|1501451|Belterra
+156|1501501|Benevides
+157|1501576|Bom Jesus do Tocantins
+158|1501600|Bonito
+159|1501709|Bragança
+160|1501725|Brasil Novo
+161|1501758|Brejo Grande do Araguaia
+162|1501782|Breu Branco
+163|1501808|Breves
+164|1501907|Bujaru
+165|1502004|Cachoeira do Arari
+166|1501956|Cachoeira do Piriá
+167|1502103|Cametá
+168|1502152|Canaã dos Carajás
+169|1502202|Capanema
+170|1502301|Capitão Poço
+171|1502400|Castanhal
+172|1502509|Chaves
+173|1502608|Colares
+174|1502707|Conceição do Araguaia
+175|1502756|Concórdia do Pará
+176|1502764|Cumaru do Norte
+177|1502772|Curionópolis
+178|1502806|Curralinho
+179|1502855|Curuá
+180|1502905|Curuçá
+181|1502939|Dom Eliseu
+182|1502954|Eldorado do Carajás
+183|1503002|Faro
+184|1503044|Floresta do Araguaia
+185|1503077|Garrafão do Norte
+186|1503093|Goianésia do Pará
+187|1503101|Gurupá
+188|1503200|Igarapé-Açu
+189|1503309|Igarapé-Miri
+190|1503408|Inhangapi
+191|1503457|Ipixuna do Pará
+192|1503507|Irituia
+193|1503606|Itaituba
+194|1503705|Itupiranga
+195|1503754|Jacareacanga
+196|1503804|Jacundá
+197|1503903|Juruti
+198|1504000|Limoeiro do Ajuru
+199|1504059|Mãe do Rio
+200|1504109|Magalhães Barata
+201|1504208|Marabá
+202|1504307|Maracanã
+203|1504406|Marapanim
+204|1504422|Marituba
+205|1504455|Medicilândia
+206|1504505|Melgaço
+207|1504604|Mocajuba
+208|1504703|Moju
+209|1504752|Mojuí dos Campos
+210|1504802|Monte Alegre
+211|1504901|Muaná
+212|1504950|Nova Esperança do Piriá
+213|1504976|Nova Ipixuna
+214|1505007|Nova Timboteua
+215|1505031|Novo Progresso
+216|1505064|Novo Repartimento
+217|1505106|Óbidos
+218|1505205|Oeiras do Pará
+219|1505304|Oriximiná
+220|1505403|Ourém
+221|1505437|Ourilândia do Norte
+222|1505486|Pacajá
+223|1505494|Palestina do Pará
+224|1505502|Paragominas
+225|1505536|Parauapebas
+226|1505551|Pau D'Arco
+227|1505601|Peixe-Boi
+228|1505635|Piçarra
+229|1505650|Placas
+230|1505700|Ponta de Pedras
+231|1505809|Portel
+232|1505908|Porto de Moz
+233|1506005|Prainha
+234|1506104|Primavera
+235|1506112|Quatipuru
+236|1506138|Redenção
+237|1506161|Rio Maria
+238|1506187|Rondon do Pará
+239|1506195|Rurópolis
+240|1506203|Salinópolis
+241|1506302|Salvaterra
+242|1506351|Santa Bárbara do Pará
+243|1506401|Santa Cruz do Arari
+244|1506500|Santa Izabel do Pará
+245|1506559|Santa Luzia do Pará
+246|1506583|Santa Maria das Barreiras
+247|1506609|Santa Maria do Pará
+248|1506708|Santana do Araguaia
+249|1506807|Santarém
+250|1506906|Santarém Novo
+251|1507003|Santo Antônio do Tauá
+252|1507102|São Caetano de Odivelas
+253|1507151|São Domingos do Araguaia
+254|1507201|São Domingos do Capim
+255|1507300|São Félix do Xingu
+256|1507409|São Francisco do Pará
+257|1507458|São Geraldo do Araguaia
+258|1507466|São João da Ponta
+259|1507474|São João de Pirabas
+260|1507508|São João do Araguaia
+261|1507607|São Miguel do Guamá
+262|1507706|São Sebastião da Boa Vista
+263|1507755|Sapucaia
+264|1507805|Senador José Porfírio
+265|1507904|Soure
+266|1507953|Tailândia
+267|1507961|Terra Alta
+268|1507979|Terra Santa
+269|1508001|Tomé-Açu
+270|1508035|Tracuateua
+271|1508050|Trairão
+272|1508084|Tucumã
+273|1508100|Tucuruí
+274|1508126|Ulianópolis
+275|1508159|Uruará
+276|1508209|Vigia
+277|1508308|Viseu
+278|1508357|Vitória do Xingu
+279|1508407|Xinguara
+280|1400050|Alto Alegre
+281|1400027|Amajari
+282|1400100|Boa Vista
+283|1400159|Bonfim
+284|1400175|Cantá
+285|1400209|Caracaraí
+286|1400233|Caroebe
+287|1400282|Iracema
+288|1400308|Mucajaí
+289|1400407|Normandia
+290|1400456|Pacaraima
+291|1400472|Rorainópolis
+292|1400506|São João da Baliza
+293|1400605|São Luiz
+294|1400704|Uiramutã
+295|1700251|Abreulândia
+296|1700301|Aguiarnópolis
+297|1700350|Aliança do Tocantins
+298|1700400|Almas
+299|1700707|Alvorada
+300|1701002|Ananás
+301|1701051|Angico
+302|1701101|Aparecida do Rio Negro
+303|1701309|Aragominas
+304|1701903|Araguacema
+305|1702000|Araguaçu
+306|1702109|Araguaína
+307|1702158|Araguanã
+308|1702208|Araguatins
+309|1702307|Arapoema
+310|1702406|Arraias
+311|1702554|Augustinópolis
+312|1702703|Aurora do Tocantins
+313|1702901|Axixá do Tocantins
+314|1703008|Babaçulândia
+315|1703057|Bandeirantes do Tocantins
+316|1703073|Barra do Ouro
+317|1703107|Barrolândia
+318|1703206|Bernardo Sayão
+319|1703305|Bom Jesus do Tocantins
+320|1703602|Brasilândia do Tocantins
+321|1703701|Brejinho de Nazaré
+322|1703800|Buriti do Tocantins
+323|1703826|Cachoeirinha
+324|1703842|Campos Lindos
+325|1703867|Cariri do Tocantins
+326|1703883|Carmolândia
+327|1703891|Carrasco Bonito
+328|1703909|Caseara
+329|1704105|Centenário
+330|1705102|Chapada da Natividade
+331|1704600|Chapada de Areia
+332|1705508|Colinas do Tocantins
+333|1716703|Colméia
+334|1705557|Combinado
+335|1705607|Conceição do Tocantins
+336|1706001|Couto Magalhães
+337|1706100|Cristalândia
+338|1706258|Crixás do Tocantins
+339|1706506|Darcinópolis
+340|1707009|Dianópolis
+341|1707108|Divinópolis do Tocantins
+342|1707207|Dois Irmãos do Tocantins
+343|1707306|Dueré
+344|1707405|Esperantina
+345|1707553|Fátima
+346|1707652|Figueirópolis
+347|1707702|Filadélfia
+348|1708205|Formoso do Araguaia
+349|1708254|Fortaleza do Tabocão
+350|1708304|Goianorte
+351|1709005|Goiatins
+352|1709302|Guaraí
+353|1709500|Gurupi
+354|1709807|Ipueiras
+355|1710508|Itacajá
+356|1710706|Itaguatins
+357|1710904|Itapiratins
+358|1711100|Itaporã do Tocantins
+359|1711506|Jaú do Tocantins
+360|1711803|Juarina
+361|1711902|Lagoa da Confusão
+362|1711951|Lagoa do Tocantins
+363|1712009|Lajeado
+364|1712157|Lavandeira
+365|1712405|Lizarda
+366|1712454|Luzinópolis
+367|1712504|Marianópolis do Tocantins
+368|1712702|Mateiros
+369|1712801|Maurilândia do Tocantins
+370|1713205|Miracema do Tocantins
+371|1713304|Miranorte
+372|1713700|Monte Santo do Tocantins
+373|1713601|Monte do Carmo
+374|1713957|Muricilândia
+375|1714203|Natividade
+376|1714302|Nazaré
+377|1714880|Nova Olinda
+378|1715002|Nova Rosalândia
+379|1715101|Novo Acordo
+380|1715150|Novo Alegre
+381|1715259|Novo Jardim
+382|1715507|Oliveira de Fátima
+383|1721000|Palmas
+384|1715705|Palmeirante
+385|1713809|Palmeiras do Tocantins
+386|1715754|Palmeirópolis
+387|1716109|Paraíso do Tocantins
+388|1716208|Paranã
+389|1716307|Pau D'Arco
+390|1716505|Pedro Afonso
+391|1716604|Peixe
+392|1716653|Pequizeiro
+393|1717008|Pindorama do Tocantins
+394|1717206|Piraquê
+395|1717503|Pium
+396|1717800|Ponte Alta do Bom Jesus
+397|1717909|Ponte Alta do Tocantins
+398|1718006|Porto Alegre do Tocantins
+399|1718204|Porto Nacional
+400|1718303|Praia Norte
+401|1718402|Presidente Kennedy
+402|1718451|Pugmil
+403|1718501|Recursolândia
+404|1718550|Riachinho
+405|1718758|Rio Sono
+406|1718659|Rio da Conceição
+407|1718709|Rio dos Bois
+408|1718808|Sampaio
+409|1718840|Sandolândia
+410|1718865|Santa Fé do Araguaia
+411|1718881|Santa Maria do Tocantins
+412|1718899|Santa Rita do Tocantins
+413|1718907|Santa Rosa do Tocantins
+414|1719004|Santa Tereza do Tocantins
+415|1720002|Santa Terezinha do Tocantins
+416|1720101|São Bento do Tocantins
+417|1720150|São Félix do Tocantins
+418|1720200|São Miguel do Tocantins
+419|1720259|São Salvador do Tocantins
+420|1720309|São Sebastião do Tocantins
+421|1720499|São Valério
+422|1720655|Silvanópolis
+423|1720804|Sítio Novo do Tocantins
+424|1720853|Sucupira
+425|1720903|Taguatinga
+426|1720937|Taipas do Tocantins
+427|1720978|Talismã
+428|1721109|Tocantínia
+429|1721208|Tocantinópolis
+430|1721257|Tupirama
+431|1721307|Tupiratins
+432|1722081|Wanderlândia
+433|1722107|Xambioá
