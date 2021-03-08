@@ -8,7 +8,7 @@ __Análise exploratória do evento Open Data Day 2021 organizado pela comunidade
  
 # Análise Final
  
-[__Assistem o vídeo da apresentação dessa análise!__](https://www.youtube.com/watch?v=slNPg58SHzQ&t=2200s)
+[__Assistam  o vídeo da apresentação dessa análise!__](https://www.youtube.com/watch?v=slNPg58SHzQ&t=2200s)
  
 [__Leiam o post no Medium sobre o evento!__](https://lucasmbribeiro.medium.com/dbdb9df11ab?source=friends_link&sk=6ca07982a894c859d5510657df9357c2)
  
