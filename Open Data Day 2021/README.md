@@ -30,7 +30,7 @@ __Problema que me propus a analisar:__
  
 <br>
  
-_Características do Dataset:__
+__Características do Dataset:__
 * Vacina: Sarampo, Caxumba e Rubéola.
 * Região: Norte do Brasil.
 * Ano: 2016, 2017 e 2018
