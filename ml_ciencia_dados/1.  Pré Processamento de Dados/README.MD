@@ -54,3 +54,11 @@ X_variaveis = scaler_credit.fit_transform(X_variaveis)
 __NORMALIZAÇÃO (NORMALIZATION)__
 
 ``` x = ( x - minimo(x) ) / ( maximo(x) - minimo(x) ) ```
+
+## DIVIDINDO OS DADOS EM TREINO E TESTE
+
+* Conjunto de __Treinamento__: Conjunto para treinar _Aprender_ o modelo. Geralmente tem uma quantidade maior de dados que o conjunto de teste.
+
+* Conjunto de __Teste__: Conjunto para testar _Validar_ o modelo. Geralmente tem uma quantidade menor de dados que o conjunto de treinamento.
+
+* Observções: Não podemos ter o mesmo registro nos dois conjuntos: treinamento e teste!
