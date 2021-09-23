@@ -12,12 +12,12 @@ __COMO O ALGORITMO APRENDE?__
 1. Precisamos capturar um conjunto de dados histórico.
 2. Preparamos essa base para que contenham apenas valores númericos.
 
-![](..\Imagens\tabela_naive_bayes.png)
+![](../Imagens/tabela_naive_bayes.png)
 _Imagem retirada do curso Udemy_
 
 3. O algoritmo irá criar uma tabela de probabilidade. É com essa tabela que o algoritmo aprende!
 
-![](..\Imagens\tabela_probabilidade_naive_bayes.png)
+![](../Imagens/tabela_probabilidade_naive_bayes.png)
 _Imagen retirada do curso Udemy_
 
 4. Com a tabela de probabilidade montada, vamos submeter novos registros a serem classificados pelo algoritimo.
